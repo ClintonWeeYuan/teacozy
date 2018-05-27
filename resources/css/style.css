@@ -1,0 +1,134 @@
+/* Universal Styles */
+body{
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/* Header */
+header{
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+
+
+}
+.logo {
+  display: inline-block;
+  margin-left: 10px;
+  height: 50px;
+}
+.logo img {
+    height: 50px;
+}
+.nav {
+  margin-left: 830px;
+}
+.nav span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+.nav a {
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+/* Huge Image */
+.jumbotron {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(/Users/clintonwee/Documents/projects/teacozy/resources/images/background.jpg);
+  display: flex;
+  align-items: center;
+  padding-top: 69px;
+}
+
+.mission {
+  width: 100%;
+  background-color: black;
+}
+
+/* Teas */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.teagroup1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.teagroup2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.teagroup2 .tea{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea h4 {
+  margin-top: 10px;
+}
+
+/* Location */
+.jumbotron1 {
+  background-image: url(/Users/clintonwee/Documents/projects/teacozy/resources/images/location.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 70px;
+}
+}
+.locationgroup {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+.location {
+  display: inline-flex;
+  flex-flow: column nowrap;
+  background-color: black;
+  width: 300px;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+/* Footer */
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.footertitle {
+  height: 200px;
+}
+
+.footertitle h2 {
+  padding-bottom: 35px;
+}
+
+.footertitle h5{
+  font-size: 0.83em;
+}
